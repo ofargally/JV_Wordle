@@ -5,16 +5,20 @@ This project is a Java implementation of the Wordle game. The game involves gues
 **📁 Files:**
 
 **WordleLogic.Java:** 🧩 Contains the main logic of the game, including word initialization, input handling, and game checking mechanisms.
+
 **WordleView.Java:** 🎨 Handles the graphical user interface (GUI) and visual elements of the game, such as drawing the game board, keyboard, and game over messages.
 
 **✨ Features:**
 
 **Word List:** 📜 The game uses a word list from the file englishWords5.txt to select a random word for the player to guess.
+
 **Color Feedback:** 🌈 The game provides color-coded feedback for each letter guessed:
+
 Green: ✅ Correct letter in the correct position.
 Yellow: ⚠️ Correct letter but in the wrong position.
 Dark Gray: ❌ Letter doesn't exist in the word.
 Light Gray: ⭕ Letter hasn't been checked yet.
+
 **Keyboard Interface:** ⌨️ Players can use both the physical keyboard and a graphical keyboard interface to input their guesses.
 
 **🕹️ How to Play:**
@@ -40,5 +44,7 @@ Continue guessing until you either guess the word correctly or run out of attemp
 **🚀 Future Enhancements:**
 
 Introduce difficulty levels by varying the word length and number of attempts.
+
 Add sound effects 🎵 for correct guesses, incorrect guesses, and game over scenarios.
+
 Implement a leaderboard 🏆 to track and display high scores.
