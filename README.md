@@ -29,7 +29,7 @@ Continue guessing until you either guess the word correctly or run out of attemp
 
 **📝 Development Notes:**
 
--->The word list is sourced from englishWords5.txt, which contains 5758 five-letter English words.
+-->The word list is sourced from englishWords5.txt, which contains 5758 five-letter English words.\n
 -->The game uses a fixed word length of 5 letters, but this can be changed by modifying the WORD_LENGTH constant.
 -->The maximum number of attempts is set to 6, but this can be adjusted using the MAX_ATTEMPTS constant.
 -->The game provides a debug mode, which, when enabled, sets the secret word to "banal" for testing purposes.
